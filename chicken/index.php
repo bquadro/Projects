@@ -105,12 +105,19 @@
   
         </div><!--end #main-column-->
         <div id="right-sidebar" class="col-md-4 col-sm-12 padside-no">
-          <!--
-          <div class="b-block">
-            <div class="b-square-md ratio2-1 even hidden-sm"><div class="b-square-content"></div></div>
+
+          <div class="b-block hidden-xs" id="b-search-front">
+            <div class="b-square-sm ratio8-1 ratio8-1-sm"><div class="b-square-content" id="b-search-index-square-content">
+              
+                <form id="b-search-index-form" method="post" name="b-search-index-form" action="/search">
+                  <div class="wrap collapse width" id="b-search-index-wrap"><input type="text" name="search" value="" placeholder="Поиск по сайту" class="b-search-index-input" /></div>
+                  <button type="submit" class="b-search-index-submit collapsed" data-toggle="collapse" data-target="#b-search-index-wrap" aria-expanded="false"><span class="b-square-sm"><span class="b-square-content"><span class="glyphicon glyphicon-search"></span></span></span></button>
+                </form>
+
+            </div></div>
             <div class="clear"></div>
           </div>
-          -->
+
           <div class="b-block b-white-scheme b-block-green with-border">
             <div class="b-square-md"><div class="b-square-content">
               <div class="b-content padside b-text">
