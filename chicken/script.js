@@ -325,6 +325,22 @@
   $(document).ready(function() {
 		$(".fancybox-ajax").fancybox({'onComplete':function(){$('.fancybox-type-ajax input, .fancybox-type-ajax textarea').placeholder();}});
 	});
-  		
+	
+  function photogallery(){
+    $('.photogallery').once(function() {
+      $('.photogallery .b-img a').append('<span class="zoom-thumb"><span class="glyphicon glyphicon-search"></span></span>');
+    });
+    
+    $(".photogallery a").fancybox({
+      helpers: {
+        overlay: {
+          locked: false
+        }
+      }
+  	});
+  }
+  
+  $(document).ready(photogallery);	    
+		
     
 })(jQuery);
