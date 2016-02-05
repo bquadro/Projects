@@ -145,13 +145,13 @@
     
         <div id="retailers-front" class="container">
           <div class="row marside-no">
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-md-4 col-sm-12">
                 <div class="intro">
                   <div class="h1">Наши<br>партнеры</div>
                     <p>Кто уже покупает куриные полуфабрикаты от «Чикен Фэктори»?</p>
                   </div>
                 </div>
-                <div class="col-sm-2 col-xs-4 padcol-last">
+                <div class="col-md-2 col-sm-4 padcol-last">
                    <div class="retailer-groups">
                     <a href="#"  data-category-id="1">Ритейл</a>
                     <a href="#"  data-category-id="2" class="active">Фаст фуд</a>
@@ -162,7 +162,7 @@
                     <a href="#"  data-category-id="7">РЖД</a>
                   </div>
               </div>
-            <div class="col-sm-6 col-xs-8 padside-no">
+            <div class="col-md-6 col-sm-8 padside-no">
               <div class="b-square-md ratio3-2">
                 <div class="b-square-content b-retailer-items" id="retailers-front-logos-area">
                   <div class="retailer-item col-xxs-4 padside-no" data-category-id="1"><div class="b-square-xxs"><div class="b-square-content" style="background: url(img/retailer_02.png) no-repeat 50% 50%;"></div></div></div> 

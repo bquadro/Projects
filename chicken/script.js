@@ -155,8 +155,10 @@
   //Ретэйлеры
   function retailersSquares(){
     
+    var logoSlider=null;
+    
     $('#retailers-front-logos-area').prepend('<div class="hidden"></div>');
-    $('#retailers-front-logos-area').prepend('<div class="visible"></div>');
+    $('#retailers-front-logos-area').prepend('<div class="visible clearfix"></div>');
     
     var category_id = $('#retailers-front .retailer-groups a.active') ? $('#retailers-front .retailer-groups a.active').data('category-id') : $('#retailers-front .retailer-groups a:eq(0)').data('category-id');
     
@@ -165,10 +167,41 @@
     function retsort(category_id){
       var visible = $('#retailers-front-logos-area .retailer-item[data-category-id = '+category_id+']');
       var hidden = $('#retailers-front-logos-area .retailer-item[data-category-id != '+category_id+']');
-      $('#retailers-front-logos-area .visible').append(visible);
+      $('#retailers-front-logos-area .visible').html('');
+      $('#retailers-front-logos-area .hidden').html('');
+
+      var rowLen = 3;
+      var visLen = visible.length;
+      var rows = Math.ceil(visLen/rowLen);
+      for(var j=0;j<rows;j++){
+        var slide = $('<div class="slide clearfix"></div>');
+        for(var i = j*rowLen;i<(j+1)*rowLen;i++){
+          if(typeof visible[i] != 'undefined') slide.append(visible[i]);
+        }
+        $('#retailers-front-logos-area .visible').append(slide);
+      }
+
       $('#retailers-front-logos-area .hidden').append(hidden);
+      
       $('#retailers-front .retailer-groups a').removeClass('active');
       $('#retailers-front .retailer-groups a[data-category-id = '+category_id+']').addClass('active');
+      
+      if(logoSlider) {
+        logoSlider.destroySlider();
+        logoSlider = null;
+      }
+     
+      if($('#retailers-front-logos-area .visible .slide').length > 2){
+        logoSlider = $('#retailers-front-logos-area .visible').bxSlider({
+          'mode': 'vertical',
+          'pager' : false,
+          'minSlides': 2,
+          'maxSlides': 2,
+          'moveSlides': 1,
+          'infiniteLoop':false
+        });
+      }
+
     }
 
     $('#retailers-front .retailer-groups a').click(function(){
