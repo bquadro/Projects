@@ -1,0 +1,12 @@
+
+.order_block{background-color: #f5f5f5;}
+
+.order_block_spoiler_info{display: block!important;}
+
+.order_block_add_incard{margin-top: 20px; padding-top: 0;}
+.order_block_add_incard th {color: #989c9e; font-size: 12px; text-align: center; height: 25px; vertical-align: top; font-weight: normal;}
+.order_block .td_title{text-transform: uppercase; font-size: 20px; font-weight: bold; color: #202020;}
+.order_block_add_incard table{border-collapse: collapse;}
+.order_block_add_incard .rubl{font-size: 15px;}
+.ordering_table_row-checked .td_price .rubl{font-size: 22px;}
+.ordering_table_row-checked .td_price{font-weight: 600; color: #494949;  font-size: 21px;}

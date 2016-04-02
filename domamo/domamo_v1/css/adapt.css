@@ -1,0 +1,169 @@
+
+@media only screen and (max-width: 1800px) {			
+		.front_news .item.item_6{display: none;}
+		.front_news .item.item_5{margin-right: 0;}		
+}
+
+@media only screen and (max-width: 1700px) {			
+		.footer .area_links .item .block1, 
+		.footer .area_links .item .block2{width: 100%; float: left; margin: 0;}
+		.footer .area_links .item {float: left; margin: 0; width: 12%; margin: 0 1% 0 0;}
+		.footer .area_links .item_1{width: 24%;}
+		.footer .area_links .item_2{width: 24%;}
+		.footer .area_links .item_3{width: 19%;}
+		.footer .area_links .item_4{width: 14%;}
+		.footer .area_links .item_5{width: 14%;}
+}
+@media only screen and (max-width: 1580px) {				
+		.front_news .item.item_5{display: none;}
+		.front_news .item.item_4{margin-right: 0;}	
+		
+		.fot_info .wrap_item .item{width: 38%}
+		
+		.footer .b_search{left: 750px; right: 355px;}		
+		.footer .b_search.focus input.search_text,
+		.top_header .b_search.focus input.search_text{padding: 0 10% 0 5%; width: 85%;}				
+}
+
+@media only screen and (max-width: 1500px) {				
+		.b_catalog .fot_info .item.zakaz{display: none;}
+		.b_catalog .fot_info .wrap_item .item{width: 45%;}
+}
+@media only screen and (max-width: 1400px) {				
+		.header_two{font-size: 13px;}
+		.header_two .small_cart{padding-left: 15px;}
+		.header_two .logo{margin-right: 10px;}		
+		.header_two .small_cart{width: 122px;}			
+		
+		.fot_info .wrap_item .item{width: 35%}
+		
+		.hide_1400{display: none;}
+}
+
+@media only screen and (max-width: 1300px) {
+		.hide_1300{display: none;}
+		
+		.top_header  .profil, .top_header  .favorite, .top_header  .compare {margin-left: 15px;}
+		.top_header .b_search{left: 635px; right: 350px;}
+		.footer .b_search.focus input.search_text,
+		.top_header .b_search.focus input.search_text{padding: 0 10% 0 6%; width: 84%;}
+		
+		.header_two .logo{margin-top: 18px;}
+		.header_two .logo img{height: 20px;}
+		.header_two{font-size: 12px;}
+	  .header_two .main_menu_ul > .main_menu_li > a > span{display: none;}		
+			
+		.front_news .item{width: 180px; margin-right: 25px;}
+		.front_news .item_image{width: 300px;}
+		.front_news .item.last2 {margin-right: 0;}
+		
+
+				
+		.footer_bottom_line .developed{width: 170px;}
+		.footer .b_search{right: 205px;}
+		
+		.b_catalog_nav .b_order_list .active,
+		.b_catalog_nav .b_complated_btn{font-size: 13px;}
+		.b_catalog_nav .b_promo{padding: 0 0 0 15px;}
+		
+		/*
+		.b_project .b_page_1{padding-right: 360px;}
+		.b_projet_desc .b_right{width: 330px;}
+		.b_projet_desc .b_right{float: right; margin: 0 0px 0 -330px; width: 330px; position: relative; right: -360px; }
+		.b_projet_desc .b_right_box{width: 300px;}
+		*/		
+}
+@media only screen and (max-width: 1200px) {
+		
+		.main_slider .arrow_right{display: none;}
+		.main_slider .arrow_left{display: none;}
+
+		.top_header .profil, .top_header .favorite, .top_header .compare{font-size: 13px;}
+		.top_header .b_search{left: 665px; right: 310px;}
+		.footer .b_search.focus input.search_text,
+		.top_header .b_search.focus input.search_text{padding: 0 10% 0 6%; width: 84%;}
+		
+		.fot_info .wrap_item .item{width: 30%}
+		
+		
+		.footer .area_links .item,
+		.footer .area_links .item .b_title{font-size: 14px;}
+		.footer .city_select .city_active,
+		.footer .developed,
+		.footer .connect,
+		.footer .tel{font-size: 13px;}
+		.footer .contackt{ margin: 6px 0 0; line-height: 15px;}
+		.footer .card_block {margin-left: 7%;}
+		.footer .social{margin-left: 10px;}
+		.footer .b_search{left: 658px; right: 173px;}
+		.footer .city_select{min-width: 122px;}	
+		.footer .top_header_ul{font-size: 13px;}
+		.footer .developed{margin-top: 3px;}
+		.footer_bottom_line .developed{width: 158px;}
+		.footer .b_search .placeholder{top: 4px;}
+		.footer .b_search .placeholder,
+		.footer .b_search .title{font-size: 14px;}
+		
+		.b_catalog_nav .b_promo{display: none;}
+		.b_catalog_nav .b_pagen a, .b_pagen span{min-width: 25px;}
+		
+		.b_project .b_tab a{font-size: 16px;}
+		
+		/*
+		.b_project .b_page_1{padding-right: 260px;}
+		.b_projet_desc .b_right{width: 230px;}
+		.b_projet_desc .b_right{float: right; margin: 0 0px 0 -230px; width: 230px; position: relative; right: -260px; }
+		.b_projet_desc .b_right_box{width: 200px;}
+		*/
+		.b_fasads .b_fasad{width: 45%; margin-right: 20px;}
+}
+@media only screen and (max-width: 1100px) {
+		
+
+
+		.top_header{padding: 10px 0;}
+		.top_header,
+		.top_header .connect,
+		.top_header .tel{font-size: 13px; width: auto; }		
+		.top_header .tel{margin-right: 15px;}
+		.top_header .city_select { min-width: 145px;}
+		.top_header .city_select .city_active{padding: 0 0 0 18px;}
+		.top_header .social{margin-left: 15px;}
+		.top_header .b_search{left: 575px; right: 300px;}				
+		.top_header  .profil, .top_header  .favorite, .top_header  .compare {margin-left: 10px;}
+		.front_filter{width: 940px; margin-left: -470px;}
+		.front_filter .block .b_title{width: 90px}
+		.front_filter .block5 .b_title{width: 158px;}
+
+		
+		.b_project{padding-top: 12px;}
+	
+		.b_project h1{font-size: 24px; line-height: 24px; }
+		.b_project .ico{font-size: 12px;}
+		
+		.b_project .b_fotorama{padding-right: 328px;}
+		.b_project .b_desc{right: -328px; margin-left: -328px;  padding: 10px 23px 20px 20px; width: 285px;}
+		.b_project .b_status{font-size: 12px;}
+		.b_project .b_co_code{font-size: 14px;}
+		.b_project .b_co_name{font-size: 15px; }
+		.b_project .b_co_logo{margin: 9px 14px 0 0;}
+		.b_project .b_co_logo img{max-height: 50px;}
+		.b_project .pr_contact{margin: 12px 0 5px 0;}
+		.b_project .pr_contact a{font-size: 12px; margin: 0 0 3px 0;}		
+		.b_project .cont{margin: 2px 0 0 0; padding: 14px 0 0 0; font-size: 14px; line-height: 16px;}
+		.b_project .price_select{margin-top: 9px;}
+		.b_project .b_more{font-size: 14px;}
+		.b_project .b_price .b_left{width: 210px;}
+		.b_project .b_price_old{font-size: 14px; margin: 6px 0 0 0;}
+		.b_project .b_price_new{font-size: 24px;}
+		.b_project .project_smeta{bottom: auto;}
+		.b_project .l_subscribe{font-size: 12px;}
+		
+		.b_project .b_select_price{width: 256px; background: url(../images/project_select_city.png) no-repeat left top; }
+		.b_project .blue_btn_300{width: 285px; background: url(../images/big_btn2.png) no-repeat left top; font-size: 15px;}
+		.b_project .b_tab a{font-size: 15px; padding: 9px 15px 12px;}
+		.b_plane_list .plane{margin: 0 20px 10px 0;}
+		.b_plane_list .plane .b_name{font-size: 16px;}
+		.b_projet_desc .title_link{ font-size: 14px; margin: -16px 0 0 0; }
+		.b_plane_list .plane_min .b_name{font-size: 16px;}
+}

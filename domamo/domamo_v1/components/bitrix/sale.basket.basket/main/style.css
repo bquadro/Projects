@@ -1,0 +1,70 @@
+.order_block_add_incard { padding: 0 12px 30px 12px; background: #fff; margin-top: 20px;}
+.order_block_add_incard table{ width: 100%; }
+.order_block_add_incard td {height: 53px; text-align: center; font-size: 14px; line-height: 36px; vertical-align: middle; }
+
+.ordering_table_row { cursor: pointer; }
+.ordering_table_row td{padding-top: 3px;}
+
+
+.order_block_add_incard .td_check {width: 50px; }
+
+.order_block_add_incard .td_title{text-transform: uppercase; font-size: 20px; font-weight: bold; color: #202020; padding: 30px 0 0 25px; text-align: left; line-height: 30px; }
+.order_block_add_incard .td_name {text-align: left; font-size: 13px; color: #4e5051; letter-spacing: .25px; text-transform: uppercase; font-weight: bold; padding-left: 5px; }
+
+
+
+
+.td_info {display: inline-block; width: 18px; height: 18px; background: url(./images/sprite.png) 0 -69px,#d8f3ff; border-radius: 50%; margin: 0 0 0 10px; position: relative; top: 4px; }
+.td_info:hover,
+.ordering_table_row-checked .td_info:hover,
+.ordering_table_row:hover .td_info:hover{background: url(./images/sprite.png) -18px -69px,#00afef;}
+.ordering_table_row-checked .td_info,
+.ordering_table_row:hover .td_info{background: url(./images/sprite.png) 0 -69px,#fff;}
+
+.order_block .td_deliver {color: #484848;}
+.order_block .td_old_price {color: #999d9f; text-decoration: line-through;}
+.order_block .td_price {color: #999d9f; background: #fafafa;}
+
+.order_block .td_del { width: 10%;}
+.order_block .del_item {display: none; width: 10px; height: 10px; background: url(./images/sprite.png) -10px -38px; float: right; margin-right: 14px; position: relative;}
+.order_block .del_item:hover {background: url(./images/sprite.png) 0 -38px;}
+.order_block .del_item:hover:before {content: "Удалить"; position: absolute; top: -12px; right: 18px; color: #d40000; font-size: 11px; text-transform: uppercase; font-weight: 500; }
+.order_block .ordering_table_row-checked .del_item {display: block;}
+
+.order_block_add_incard .td_discount_nane,
+.order_block_add_incard .td_price_nane {font-size: 12px; text-transform: uppercase; font-weight: 500; color: #5aa23e; text-align: right; padding-right: 15px;}
+.order_block_add_incard .td_discount_value,
+.order_block_add_incard .td_price_value {font-size: 21px; font-weight: 500; text-transform: uppercase; color: #508b3e; background: #fafafa; }
+.order_block_add_incard .tr_price td{height: 30px; line-height: 30px; box-sizing: border-box; vertical-align: middle; }
+.order_block_add_incard td.td_discount_nane,
+.order_block_add_incard td.td_discount_value {padding-top: 15px; }
+
+.order_block_add_incard .td_price_nane {color: #a1a1a1; }
+.order_block_add_incard .td_price_value { color: #1b1e26; }
+.order_block_add_incard .chechbox_container {
+		margin: -4px 0 0 24px; 
+		cursor: pointer;
+		position: relative;
+		display: block;
+		width: 14px;
+		height: 14px;
+		border: 1px solid #88bedf;
+		border-radius: 3px;
+		background-color: #fff;
+}
+
+.order_block_add_incard .ordering_table_row-checked .chechbox_container{background: url("./images/sprite.png") -36px -69px no-repeat; width: 16px; height: 16px; border: none;}
+.order_block_add_incard .ordering_table_row-checked, 
+.ordering_table_row:hover {background: #d8f3ff;}
+
+
+.order_block{background-color: #f5f5f5;}
+/*.order_block_spoiler_info{display: block!important;}*/
+
+.order_block_add_incard th {color: #989c9e; font-size: 12px; text-align: center; height: 25px; vertical-align: top; font-weight: normal;}
+
+.order_block_add_incard table{border-collapse: collapse;}
+.order_block_add_incard .rubl{font-size: 15px;}
+.ordering_table_row-checked .td_price .rubl{font-size: 22px;}
+.ordering_table_row-checked .td_price{font-weight: 600; color: #494949;  font-size: 21px;}
+.order_block_add_incard .td_price_value{font-weight: bold!important;}

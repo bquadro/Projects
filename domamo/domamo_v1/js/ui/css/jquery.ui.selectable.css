@@ -1,0 +1,14 @@
+/*!
+ * jQuery UI Selectable 1.8.22
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Selectable#theming
+ */
+.ui-selectable-helper {    background-color: #bbb;
+    border: 1px #333 solid;  
+    opacity: 0.1;
+    position: absolute;
+    z-index: 100; }

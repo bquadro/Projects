@@ -1,0 +1,10 @@
+input::-webkit-input-placeholder {color: #444!important;}
+input:-moz-placeholder {color: #444!important;}
+textarea::-webkit-input-placeholder {color: #444!important;}
+textarea:-moz-placeholder {color: #444!important;}
+
+#ORDER_FORM{position: relative;}
+.summary_table_left{float: left; width: 50%;}
+.summary_table_left .summary-table{width: 100%;}
+.order-container .buttons{float: right;  width: 46%; text-align: center; margin: 6px 2%;;}
+.order-container .buttons p{background: transparent; text-align: center; margin: 10px 0 0 0;}
